@@ -1,0 +1,14 @@
+name: defect
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - pillow
+  - matplotlib
+  - seaborn
+  - pip
+  - pip:
+    - openpyxl  # Excel 파일 읽기용 (선택)
